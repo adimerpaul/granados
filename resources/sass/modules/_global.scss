@@ -1,0 +1,46 @@
+table th,
+table td{
+    text-align: center;
+}
+.modal-header {
+    background-color: $color-black-variant-1;
+}
+.modal-header h5,
+.modal-header span{
+    color: #fff;
+}
+.custom-container{
+    padding: 30px;
+    box-shadow: 0 0 10px $color-black-variant-3;
+    border-radius: 10px;
+}
+
+/* Dashboard */
+
+.dashboard h2{
+    padding: 5px 15px 15px 0;
+    font-family: $font-family-roboto;
+    font-size: 1.7em;
+}
+.dashboard .container-items{
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px $color-black-variant-3;
+    margin-bottom: 20px;
+}
+.dashboard a{
+    display: block;
+    border: 1px solid $color-black-variant-2;
+    border-radius: 10px;
+    padding: 25px;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: $color-blue-variant-1;
+    font-size: 1.1em;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    &:hover{
+        background-color: $color-blue-variant-2;
+    }
+}

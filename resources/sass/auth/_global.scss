@@ -1,0 +1,15 @@
+.custom-auth{
+    margin-top: 100px;
+}
+.custom-auth .card{
+    border-radius: 10px;
+    box-shadow: 0 0 15px #dbdbdb;
+}
+.custom-auth button{
+    background-color: #000;
+    border:none;
+    &:hover{
+        border: #000;
+        background-color: #444444;
+    }
+}

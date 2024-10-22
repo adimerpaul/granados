@@ -1,0 +1,26 @@
+a.status{
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 8px 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* MANAGEMENT */
+.link-work{
+    border-radius:5px;
+    padding:8px;
+    background-color:rgb(78, 158, 78);
+}
+
+.link-work:hover{
+    background-color: rgba(78, 158, 78, 0.8);
+}
+
+.table td,
+.table th{
+    text-align: start!important;
+    text-transform: uppercase!important;
+}
